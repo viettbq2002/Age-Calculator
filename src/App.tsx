@@ -7,7 +7,6 @@ import { calculateAge } from "./utils/date";
 import { useEffect, useState } from "react";
 import { isEmpty } from "lodash";
 function App() {
-  const today = new Date();
   const {
     register,
     handleSubmit,
